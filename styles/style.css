@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
 /* Define o estilo para o corpo do documento */
 body {
     font-family: 'Roboto', sans-serif; /* Define a fonte padrão */
-    background-image: url('https://i.pinimg.com/564x/52/28/c1/5228c1ca678bf00fb3996bf9fa1c54b1.jpg'); /* Define a imagem de fundo */
+    background-image: url('https://wallpapercave.com/wp/wp2726641.jpg'); /* Define a imagem de fundo */
     background-size: cover; /* Ajusta a imagem de fundo para cobrir todo o corpo */
     background-position: initial; /* Define a posição inicial da imagem de fundo */
     margin: 0; /* Remove a margem padrão */
@@ -13,7 +15,7 @@ body {
 
 /* Define o estilo para o container principal */
 .container {
-    background-color: rgba(255, 255, 255, 0.9); /* Define a cor de fundo com opacidade */
+    background-color: rgba(230, 246, 228, 0.9); /* Define a cor de fundo com opacidade */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra ao redor do container */
     border-radius: 15px; /* Define bordas arredondadas */
     overflow: hidden; /* Esconde o conteúdo que ultrapassa o limite do container */
@@ -79,17 +81,17 @@ button#decrypt-button {
 
 /* Define a cor de fundo para o botão de resetar */
 button#reset-button {
-    background-color: #dc3545;
+    background-color: #b12936;
 }
 
 /* Define o efeito hover para os botões */
 button:hover {
-    background-color: #004494; /* Cor de fundo ao passar o mouse */
+    background-color: #023064; /* Cor de fundo ao passar o mouse */
 }
 
 /* Define o efeito hover para o botão de descriptografar */
 button#decrypt-button:hover {
-    background-color: #218838;
+    background-color: #19662a;
 }
 
 /* Define o efeito hover para o botão de resetar */
@@ -99,8 +101,8 @@ button#reset-button:hover {
 
 /* Define o estilo para a área de saída */
 .output-area {
-    background-color: #f7f7f7; /* Define a cor de fundo */
-    border: 2px solid #ddd; /* Define a borda */
+    background-color: #c2f5d3; /* Define a cor de fundo */
+    border: 2px solid #24f408; /* Define a borda */
     border-radius: 5px; /* Define bordas arredondadas */
     padding: 20px; /* Adiciona padding */
     text-align: center; /* Centraliza o texto */
